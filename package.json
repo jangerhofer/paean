@@ -1,0 +1,25 @@
+{
+  "name": "apollo-paean",
+  "version": "1.0.0",
+  "description": "Wrap common APIs to complement Apollo Stack.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangerhofer/apollo-paean.git"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "paean",
+    "apollo-paean"
+  ],
+  "author": "JD Angerhofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangerhofer/apollo-paean/issues"
+  },
+  "homepage": "https://github.com/jangerhofer/apollo-paean#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
