@@ -19,7 +19,7 @@ Without further ado… Paean consists of:
 
 Here is a quick down of the working rules.  If you feel lost at any point, peek at how the part in question ties in under the [Example Integration](https://github.com/jangerhofer/apollo-paean/wiki/Example-Integration).
 
-- Paean libraries should export five things, all using a similar naming convention:
+- Paean libraries should export (at least) five things, all using a similar naming convention -- more exports may be defined to divide larger schemas into smaller parts.  An example convention is using a "wp-" prefix to each export.  _e.g. wp-schema, wp-queries, etc._
 	1.  __Schema__ string in GraphQL format
 	2. __Queries__ string in GraphQL format
 		- This is the part of the schema that would go under the Root Query type if the schema were not broken out into a library.  It will be merged into the Root Query type.  See the [Example Integration](https://github.com/jangerhofer/apollo-paean/wiki/Example-Integration) Wiki page for more information.
